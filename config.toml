@@ -6,7 +6,7 @@ disableKinds = ["taxonomy"]
     writeStats = true
 
 [params]
-    title = "Sada Theme"
+    title = "Jeromi G. López Santiago"
     author = "Darshan Baral"
     description = "About Me:"
     copyright = "© 2024 No rights reserved."
