@@ -45,7 +45,7 @@ disableKinds = ["taxonomy"]
         [[params.social.list]]
         icon = "ai ai-cv"
         url = "files/cv.pdf"
-        title = "Dowload my CV"	
+        title = "Download my CV"	
 
     # Education section
     [params.education]
