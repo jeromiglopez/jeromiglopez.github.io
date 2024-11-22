@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "http://jeromiglopez.github.io/"
 languageCode = "en-us"
 disableKinds = ["taxonomy"]
 
@@ -8,28 +8,23 @@ disableKinds = ["taxonomy"]
 [params]
     title = "Sada Theme"
     author = "Darshan Baral"
-    description = "Simple portfolio theme"
-    copyright = "Custom copyright message"
+    description = "About Me:"
+    copyright = "© 2024 No rights reserved."
     theme = "dark" # `dark` or `light`
 
     # Profile section
     [params.profile]
-        name = "First Last"
-        title = "Abbr., K.A."
-        photo = "images/profile.jpg"
+        name = "Jeromi G. López Santiago"
+        title = "Ph.D. Candidate"
+        photo = "images/sicote.jpeg"
 
     # Section for links to social websites
     [params.social]
         title = "Links"
 
         [[params.social.list]]
-        icon = "fab fa-linkedin-in"
-        url = "#"
-        title = "LinkedIn"
-
-        [[params.social.list]]
         icon = "fab fa-github"
-        url = "#"
+        url = "https://github.com/jeromiglopez"
         title = "GitHub"
 		
 		[[params.social.list]]
@@ -39,24 +34,39 @@ disableKinds = ["taxonomy"]
 		
 		[[params.social.list]]
         icon = "ai ai-researchgate"
-        url = "#"
-        title = "ResearchGate"		
+        url = "https://www.researchgate.net/profile/Jeromi-Lopez-Santiago"
+        title = "ResearchGate"	
+
+        [[params.social.list]]
+        icon = "ai ai-orcid"
+        url = "https://orcid.org/0000-0001-7026-0041"
+        title = "ORCID"	
+
+        [[params.social.list]]
+        icon = "ai ai-cv"
+        url = "files/cv.pdf"
+        title = "Dowload my CV"	
 
     # Education section
     [params.education]
         title = "Education"
 
         [[params.education.list]]
-        degree = "Masters in Degree 1"
-        college = "University Number 1"
-        dates = "2016 - 2018"
-        thesis_title = "Title of the dissertation"
+        degree = "Ph.D. Mechanical Engineering (Bio and Microscale Engineering)"
+        college = "University of Puerto Rico - Mayagüez Campus"
+        dates = "2025"
+        thesis_title = "Design and Characterization of a Rapidly Prototyped Pneumatic Microfluidic Device for the Study of Vinculin Expression at Focal Adhesions in Response to Continuous Mechanical Stimulation. "
         thesis_link = "#"
 
         [[params.education.list]]
-        degree = "Bachelors in Degree 2"
-        college = "University Number 2"
-        dates = "2010 - 2014"
+        degree = "M.Eng. Mechanical Engineering"
+        college = "University of Puerto Rico - Mayagüez Campus"
+        dates = "2024"
+
+        [[params.education.list]]
+        degree = "B.Sc. Mechanical Engineering"
+        college = "University of Puerto Rico - Mayagüez Campus"
+        dates = "2016"
 
     # Languages section
     [params.language]
@@ -67,71 +77,80 @@ disableKinds = ["taxonomy"]
         level = "Fluent"
 				
         [[params.language.list]]
-        language = "Bird"
-        level = "Basic"
+        language = "Español"
+        level = "Native"
 
     # Interests section
     [params.hobbies]
         title = "Hobbies"
 
         [[params.hobbies.list]]
-        interest = "Travelling"
+        interest = "Lifting Weights"
 		
 		[[params.hobbies.list]]
-        interest = "Music"
+        interest = "Cats"
 
         [[params.hobbies.list]]
-        interest = "Flying"
+        interest = "Planted Aquariums"
 
         [[params.hobbies.list]]
         interest = "Baking"
 
     [params.aboutme]
-        description = "Tagline. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        description = "I am a Mechanical Engineer specializing in additive manufacturing, microfluidic systems, and computational analysis of complex systems. My expertise includes materials characterization, microfabrication, cellular mechanotransduction, and multi-physics simulations, with proficiency in finite element analysis and advanced computational methods. I have a proven track record in translating research into practical engineering solutions through rigorous experimental design and cross-functional collaboration."
 
     # Experiences section
     [params.experiences]
-        title = "Experiences"
+        title = "Experience"
 
         [[params.jobs.list]]
-        position = "Job Number 1"
-        dates = "2018 - *Present*"
+        position = "Graduate Research Assistant"
+        dates = "2016 - *Present*"
 		link = "#"
-        company = "Company name 1"
+        company = "Biomechanics and Biomaterials Laboratory (Department of Mechanical Engineering, UPR - Mayagüez Campus)"
+        details = "I designed and fabricated a PDMS microfluidic device for live-cell imaging using 3D printing, employed multiphysics software for device characterization, and conducted complex cell-stretching experiments. Additionally, I provided technical support to other projects and collaborated on interdisciplinary research"
 
-        [[params.jobs.list]]
-        position = "Job Number 2"
-        dates = "2016 - 2018"
+    	[[params.jobs.list]]
+        position = "Mechanical Engineer"
+        dates = "2023 - 2024"
 		link = "#"
-        company = "Company name 2"
-        details = "Brief description of the `work` done. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        company = "U.S. Army Corps of Engineers - Engineering Research and Development Center"
+        details = "I led a thermomechanical FEA study using Abaqus to predict and minimize warping in 3D-printed parts by optimizing printing parameters. Additionally, I critically reviewed literature on thermomechanical modeling of additive manufactured parts and documented fiber-reinforced composite repairs of aging steel hydraulic structures."
 
     # Projects section
     [params.projects]
         title = "Projects"
 
         [[params.projects.list]]
-        title = "Awesome Project 1"
+        title = "Comprehensive Cat Census and Management Plan for the Mayagüez Pueblo Area: A Citizen Based Strategy for Humane Population Control"
         url = "#"
-        description = "Description of the *awesome* project 1"
+        description = "This project aims to conduct a comprehensive cat census in the Mayagüez Pueblo area to gather data on the stray and feral cat population, utilizing methods such as transect surveys, camera trapping, and community engagement. The goal is to develop humane and effective management strategies to improve public health, enhance community engagement, and ensure the well-being of both the feline population and local residents."
 		
-		[[params.projects.list]]
-        title = "Awesome Project 2"
-        url = "#"
-        description = "Description of the **awesome** project 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-
     # Skills section
     [params.skills]
         title = "Skills"
 
         [[params.skills.list]]
-        skill = "Skill 1, Skill 2"
-        skillrating = 95 # out of 100
+        skill = "Materials Testing and Analysis"
+        details = "Tensile, Compression, Flexural, Hardness, Fatigue, and Thermomechanical Testing"
+        skillrating = 80 # out of 100
                 
         [[params.skills.list]]
-        skill = "Skill 3"
-        skillrating = 90
+        skill = "Microfabrication and Microfluidics"
+        details = "Soft-lithography, Etching, Molding, Assembly, and Testing of Microfluidic Devices"
+        skillrating = 60
 		
         [[params.skills.list]]
-        skill = "Skill 4"
-        skillrating = 80
+        skill = "Additive Manufacturing"
+        details = "Fused Deposition Modeling (FDM), Stereolithography (SLA), Digital Light Processing (DLP), Thermomechanical Analysis of AM Parts"
+        skillrating = 65
+
+    	[[params.skills.list]]
+        skill = "Computer Aided Design and Engineering"
+        details = "Abaqus, SolidWorks, AutoCAD and Fusion 360, ANSYS, FreeCAD, COMSOL Multiphysics, and Elmer FEM Solver"
+        skillrating = 70
+
+        [[params.skills.list]]
+        skill = "Programming"
+        details = "Python, R, Julia, and MATLAB"
+        skillrating = 60
